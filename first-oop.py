@@ -20,7 +20,7 @@ class laptop:
             #vars(self) returns a dictionary of all attributes
             print(vars(self))
 
-from dataclasses import dataclass
+from dataclasses import dataclass  # The modern way
 @dataclass
 class Book:
     titile: str 
@@ -29,7 +29,6 @@ class Book:
     price : int 
 
 print("\n")
-
 book = Book("The atomic habit", "jaymes wayne", 1998 ,250)
 print(book)
 
