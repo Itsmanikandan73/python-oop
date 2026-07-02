@@ -1,5 +1,13 @@
+Programs
+--------
+    first-oop.py
+    class-variables.py
+
 01/07/26
     first-oop.py
+    
+02/06/26
+    class-variables.py
 
 Sequence of OOP-Programs
 ------------------------
