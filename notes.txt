@@ -2,6 +2,9 @@ Programs
 --------
     first-oop.py
     class-variables.py
+    init_and_self.py
+
+    Inheritance.py
 
 01/07/26
     first-oop.py
@@ -9,11 +12,19 @@ Programs
 02/06/26
     class-variables.py
 
+03/06/26
+    init_and_self.py
+    Inheritance.py(dealt with later)
+    
+
 Sequence of OOP-Programs
 ------------------------
 Note:1. Dunder methods used to (double underscore) print self. class Sequence easily. Dunder methods is a __str__ or __repr__ object's internal dictionary.
     2. The first one is cleanest way the second way is "The lazy/ Quick way: use with "vars() or __dict__. it is not goona manually format the  string and also it will dump all the datat at once.also it is the object's hidden attribute dictionary using vars(self) or self.__dict__.
     3. Another way is Modern way: using "@dataclass" if my code is primarily used to store data, you can import dataclass from the library. it do the heavy work for you automatically without writing any print logic
 
-    
+
+intit__and__self
+----------------
+python does not support "constructor" overloading (having multiple __init__ methods with different paratmeters in the same class)
 
