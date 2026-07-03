@@ -3,18 +3,20 @@ Programs
     first-oop.py
     class-variables.py
     init_and_self.py
+    str_vs_repr.py
 
     Inheritance.py
 
 01/07/26
     first-oop.py
     
-02/06/26
-    class-variables.py
-
 03/06/26
+    class-variables.py
     init_and_self.py
+
     Inheritance.py(dealt with later)
+03/07/26
+    str_vs_repr.py
     
 
 Sequence of OOP-Programs
@@ -23,8 +25,11 @@ Note:1. Dunder methods used to (double underscore) print self. class Sequence ea
     2. The first one is cleanest way the second way is "The lazy/ Quick way: use with "vars() or __dict__. it is not goona manually format the  string and also it will dump all the datat at once.also it is the object's hidden attribute dictionary using vars(self) or self.__dict__.
     3. Another way is Modern way: using "@dataclass" if my code is primarily used to store data, you can import dataclass from the library. it do the heavy work for you automatically without writing any print logic
 
-
 intit__and__self
 ----------------
 python does not support "constructor" overloading (having multiple __init__ methods with different paratmeters in the same class)
+
+str_vs_repr
+-----------
+__str__ and __repr__ is cleanest way to do things, but they actually have two different jobs in python.
 
