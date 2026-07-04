@@ -4,6 +4,7 @@ Programs
     class-variables.py
     init_and_self.py
     str_vs_repr.py
+    instance_vs_class_vars.py
 
     Inheritance.py
 
@@ -17,6 +18,9 @@ Programs
     Inheritance.py(dealt with later)
 03/07/26
     str_vs_repr.py
+
+4/07/26
+    instance_vs_class_vars.py
     
 
 Sequence of OOP-Programs
@@ -32,4 +36,11 @@ python does not support "constructor" overloading (having multiple __init__ meth
 str_vs_repr
 -----------
 __str__ and __repr__ is cleanest way to do things, but they actually have two different jobs in python.
+
+instance_vs_class_vars
+----------------------
+instance variables is unique object (define inside the __init__ using self) class variables is shared by all objects created from that class (defined directly in the class)
+
+
+
 
