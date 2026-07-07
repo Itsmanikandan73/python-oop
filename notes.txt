@@ -5,6 +5,7 @@ Programs
     init_and_self.py
     str_vs_repr.py
     instance_vs_class_vars.py
+    class_methods.py
 
     Inheritance.py
 
@@ -21,6 +22,9 @@ Programs
 
 4/07/26
     instance_vs_class_vars.py
+
+7/07/26
+    class_methods.py
     
 
 Sequence of OOP-Programs
@@ -41,6 +45,10 @@ instance_vs_class_vars
 ----------------------
 instance variables is unique object (define inside the __init__ using self) class variables is shared by all objects created from that class (defined directly in the class)
 
+class_methods
+-------------
+To make a class_method we use "@classmethod" decorator, instead of self( the specific object), it automatically receives cls(the class itself) as its first aurgument.
+ 
 
 
 
