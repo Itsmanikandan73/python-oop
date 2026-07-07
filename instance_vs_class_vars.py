@@ -1,7 +1,7 @@
 class FleetDrone:
     # 1. CLASS VARIABLE
     # Shared by all instance. If the fleet status changes, every drone updates
-    fleet_status = "ACTIVE"
+    fleet_status = "RECALL"
     drone_count = 0 # To keep track of the all the objects created
 
     def __init__(self, drone_id, battery_level):
@@ -11,7 +11,7 @@ class FleetDrone:
         self.battery_level = battery_level
 
         # Increment the total drone count every time a new object is initialized
-        FleetDrone.drone_count += 1
+        FleetDrone.drone_count = FleetDrone.drone_count + 1
 
     def report(self):
         # Notice we can access both types of variables inside an instance method
@@ -31,12 +31,14 @@ print(f"Total Drones Deployed: {FleetDrone.drone_count}")
 print("\n --- Modifying an Instance Variable ---")
 # Changing drone_a's battery doesn't touch drone_b
 drone_a.battery_level = 85
+drone_b.battery_level = 53
+
 print(f"Drone A Battery: {drone_a.battery_level}%")
 print(f"Drone B Battery: {drone_b.battery_level}%")
 
 print("\n ---Modifying the class Variable ---")
 # If the command center orders a RECALL, we change it at the clas level
-FleetDrone.fleet_status = "RECALL"
+FleetDrone.fleet_status = "ACTIVE"
 
 # Both drones automatically reflect this change 
 drone_a.report()
