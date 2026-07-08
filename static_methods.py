@@ -35,3 +35,4 @@ bill2 = Invoice("Ultrawide monitor", 350)
 
 bill1.generate_bill()
 bill2.generate_bill()
+
