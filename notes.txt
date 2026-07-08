@@ -6,6 +6,7 @@ Programs
     str_vs_repr.py
     instance_vs_class_vars.py
     class_methods.py
+    static_method.py
 
     Inheritance.py
 
@@ -25,6 +26,9 @@ Programs
 
 7/07/26
     class_methods.py
+
+8/07/26
+    static_method.py
     
 
 Sequence of OOP-Programs
@@ -49,6 +53,9 @@ class_methods
 -------------
 To make a class_method we use "@classmethod" decorator, instead of self( the specific object), it automatically receives cls(the class itself) as its first aurgument.
  
-
+static_method
+-------------
+self(Instance methods), cls(Class methods), @staticmethod decorator, A static method is completely isolated: it does not receive  self or cls automatically. It is plain , regular  function that just happens to live inside a class beacuse it logically belongs here.
+In real world static method are used for "Utility or helper function" they take inputs, do some math or processing, and return a result without touching or changing any class or object data.
 
 
