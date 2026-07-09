@@ -7,6 +7,7 @@ Programs
     instance_vs_class_vars.py
     class_methods.py
     static_method.py
+    single_inheritance.py
 
     Inheritance.py
 
@@ -29,6 +30,9 @@ Programs
 
 8/07/26
     static_method.py
+
+9/07/26
+    single_inheritance.py
     
 
 Sequence of OOP-Programs
