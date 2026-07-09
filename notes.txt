@@ -63,3 +63,8 @@ self(Instance methods), cls(Class methods), @staticmethod decorator, A static me
 In real world static method are used for "Utility or helper function" they take inputs, do some math or processing, and return a result without touching or changing any class or object data.
 
 
+phase3:
+single_inheritance
+------------------
+In c++ we can use : for Inheritance(eg: class dog : public Animal).In python, it's much cleaner: you just pass the parent class as an aurgument into the child class's definition, like class Dog(Animal)
+The most critical tool to learn here is "super()" it is a built-in function that lets the chlild class the __init__ constructor or methods of its parent class, ensuring you don't repeat code.
