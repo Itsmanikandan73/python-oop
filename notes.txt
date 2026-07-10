@@ -8,6 +8,7 @@ Programs
     class_methods.py
     static_method.py
     single_inheritance.py
+    polymorphism.py
 
     Inheritance.py
 
@@ -33,6 +34,9 @@ Programs
 
 9/07/26
     single_inheritance.py
+
+10/07/26
+    polymorphism.py
     
 
 Sequence of OOP-Programs
@@ -68,3 +72,8 @@ single_inheritance
 ------------------
 In c++ we can use : for Inheritance(eg: class dog : public Animal).In python, it's much cleaner: you just pass the parent class as an aurgument into the child class's definition, like class Dog(Animal)
 The most critical tool to learn here is "super()" it is a built-in function that lets the chlild class the __init__ constructor or methods of its parent class, ensuring you don't repeat code.
+
+polymorphism
+------------
+polymorphism comes from greek it means "many forms". In programming language, it means using the exact same function or method name on different object types, and having each object execute its own specific of that method.
+In python, polymorphism is incredibly clean and is often implemented via methods overriding(where a child class completely rewrites a method it inherited form a parent class)
