@@ -9,6 +9,7 @@ Programs
     static_method.py
     single_inheritance.py
     polymorphism.py
+    encapsulation_private.py
 
     Inheritance.py
 
@@ -77,3 +78,12 @@ polymorphism
 ------------
 polymorphism comes from greek it means "many forms". In programming language, it means using the exact same function or method name on different object types, and having each object execute its own specific of that method.
 In python, polymorphism is incredibly clean and is often implemented via methods overriding(where a child class completely rewrites a method it inherited form a parent class)
+
+encapsulation_private
+---------------------
+In c++, you use access specifiers like public;, protected; and private: to restrict access to your class data. python does not have strict compiler-enforced access controls.Instead it relies on naming conventions to signal to other developers how data should be treated.
+python handles 
+    public: variable(access anywhere)
+    protected: _variable(A waring to other developers "Please don't touch this outside the class or its subclasses.")
+    private: __variable(Trigger "Name mangling" under the hood, making it difficult to access directly from outside the class)
+    
