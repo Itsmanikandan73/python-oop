@@ -38,6 +38,12 @@ Programs
 
 10/07/26
     polymorphism.py
+
+11/07/26
+    getters_setters.py
+
+12/07/26
+    abstraction.py
     
 
 Sequence of OOP-Programs
@@ -86,4 +92,13 @@ python handles
     public: variable(access anywhere)
     protected: _variable(A waring to other developers "Please don't touch this outside the class or its subclasses.")
     private: __variable(Trigger "Name mangling" under the hood, making it difficult to access directly from outside the class)
-    
+
+getters_setters
+---------------
+In previous script we used get_balance() to access the private data.while that works perfectly, python gives us another more elegant way to handle this using @property decorator.
+with getters and setters in python,  you can write methods to protect and validate your private attributes, but access them from the outside as if they were regular variables(without using parentheses ().)
+
+abstraction
+-----------
+In c++ you can create an abstract by decraring "pure virtual function"(eg virtual void draw() = 0). python doesn't have build in virtual keyword.intsead it relies on a build-in module called abc(abstract Base Classes).
+An abstract class is a blueprint for other classes. it allows you to declare a method that must exist in any child class, but you leave it empty. "You cannot create an object directly from an abstract class. it enforces a contract on any class that inherits from it.
