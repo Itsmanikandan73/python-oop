@@ -49,7 +49,7 @@ Postgres = PostgreSQLDatabase("postgresql://postgres@localhost:5432/prod")
 
 my_sql.connect()
 my_sql.execute_query("SELECT * FROM users;")
-
+      
 print()
 
 Postgres.connect()

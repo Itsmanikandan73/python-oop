@@ -10,6 +10,11 @@ Programs
     single_inheritance.py
     polymorphism.py
     encapsulation_private.py
+    getters_setters.py
+    abstraction.py
+    multiple_Inheritance.py
+    composition.py
+
 
     Inheritance.py
 
@@ -40,10 +45,16 @@ Programs
     polymorphism.py
 
 11/07/26
-    getters_setters.py
+    encapsulation_private
 
 12/07/26
+    getters_setters.py
     abstraction.py
+
+13/07/26
+    multiple_Inheritance.py
+    composition.py
+
     
 
 Sequence of OOP-Programs
@@ -102,3 +113,16 @@ abstraction
 -----------
 In c++ you can create an abstract by decraring "pure virtual function"(eg virtual void draw() = 0). python doesn't have build in virtual keyword.intsead it relies on a build-in module called abc(abstract Base Classes).
 An abstract class is a blueprint for other classes. it allows you to declare a method that must exist in any child class, but you leave it empty. "You cannot create an object directly from an abstract class. it enforces a contract on any class that inherits from it.
+
+
+Phase4 : Advance concepts
+
+multiple_Inheritance
+--------------------
+Multiple Inheritance means single child class can inherit from more than one parent class. However, this introduces a classic computer science problem called "Diamond Problem"(where two parent classes have a method with the same name, and the child doesn't know which one to run.).
+Python solves this problem using an algorithm called MRO (Method Resolution Order). python looks at classes from left to right. depth-first, ensuring every method is called exactly one without crashing.
+
+composition
+-----------
+In software field there is famous design principle: "Favor object composition over class Inheritance" while Inheritance represents an "ls-A" relationship (Smartphone is Device), compostion represents "Has-A" relationship(a Laptop has a processor, has a Ram stick.).
+Instead of forcing a class to inherit a massive tree of code, you build small, specilized class and combine them as components inside a larger object.
