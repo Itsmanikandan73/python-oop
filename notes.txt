@@ -55,6 +55,10 @@ Programs
     multiple_Inheritance.py
     composition.py
 
+14/07/26
+    operator_overloading.py
+
+
     
 
 Sequence of OOP-Programs
@@ -126,3 +130,12 @@ composition
 -----------
 In software field there is famous design principle: "Favor object composition over class Inheritance" while Inheritance represents an "ls-A" relationship (Smartphone is Device), compostion represents "Has-A" relationship(a Laptop has a processor, has a Ram stick.).
 Instead of forcing a class to inherit a massive tree of code, you build small, specilized class and combine them as components inside a larger object.
+
+operator_overloading
+--------------------
+In python, operator like +, -, <, and ++ aren't hardcoded to only work with numbers and strings.you can actually teach your custom classes how to respond to these operators!.
+This is called Operator Overloading, and it is achieved using pyhton's Dunder(Double underscore) methods (often called "magic methods") when you write a + b a.__add__(b) under  the hood.
+
+dataclasses_modern.py
+---------------------
+Normally, writing a simple data storage class requires writing a boring, reptitive __init__, __repr__ and __eq__ method. The @dataclass decorator automatically writes all of that boilerplate code for you behind the secens.
