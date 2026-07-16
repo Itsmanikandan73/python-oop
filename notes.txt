@@ -16,8 +16,6 @@ Programs
     composition.py
 
 
-    Inheritance.py
-
 01/07/26
     first-oop.py
     
