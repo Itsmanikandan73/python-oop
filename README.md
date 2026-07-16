@@ -6,12 +6,12 @@ Welcome to the ultimate Python Object-Oriented Programming repository! This proj
 - Phase 3: *The pillars of OOP*
 - Phase 4: *Python-Specific & Advanced*
 
-- ### Basics & The Foundation
-    - **01_class_and_object.py** 
+- ## Basics & The Foundation
+    - ### 01_class_and_object.py 
        - Defining a basic class, creating instances, and understanding attributes and methods.
     
-    - **02_init_and_self.py**
+    - ### 02_init_and_self.py
        - Deep dive into the constructor, passing arguments, and how self binds data to an instance.
 
-    - **03_str_vs_repr.py**
+    - ### 03_str_vs_repr.py
        - Overriding dunder methods to control how objects look when printed or dubugged.
