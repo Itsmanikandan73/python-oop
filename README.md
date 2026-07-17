@@ -25,3 +25,19 @@ Welcome to the ultimate Python Object-Oriented Programming repository! This proj
 
 - ### 06_static_methods.py
     - Using the *@staticmethod* decorator for isolated utility functions.
+
+## 3. The Pillars of OOP
+- ### 07_single_inheritance.py
+    - Creating a parent class and a child class, and using super().
+
+- ### 08_polymorphism.py
+    - Method overriding where different classes use the exact same method name for different behaviors.
+
+- ### 09_encapsulation_private.py
+    - Using single '-' and double '--' underscores to hide data and prevent direct modification.
+
+- #### 10_getter_setters.py
+    - Using the *@property* decorector to cleanly get, set, and validate private data.
+
+- ### 11_abstraction.py
+    - Using the *abc* module to create abstract classes and enforce structure on child classes.
