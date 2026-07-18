@@ -41,3 +41,17 @@ Welcome to the ultimate Python Object-Oriented Programming repository! This proj
 
 - ### 11_abstraction.py
     - Using the *abc* module to create abstract classes and enforce structure on child classes.
+
+## 4. Python-Specific & Advanced OOP
+- ### 12_multiple_inheritance.py
+    - Inheriting from multiple classes and understanding Method Resolution Order(MRO)
+
+- ### 13_composition.py
+    - Learning the "Has-A" relationship by passing one class object inside another class.
+
+- ### 14_operator_overloading.py
+    - Using dunder methods like *__add__* or *__eq__* to make your objects work with + or ==.
+
+- ### 15_dataclasses_modern.py
+    - Deep dive into *@dataclass* for writing clean, boilerplate-free data containers.
+    
